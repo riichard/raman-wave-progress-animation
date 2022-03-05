@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+    <script src="background.js"></script>
+    <div id="waves"
+         style="position:fixed;top:0;left:0;right:0;bottom:0;z-index:-1;"><canvas
+         style="width: 1916px; height: 25px;" width="1916"
+                                              height="25"></canvas></div>
+    <script>
+         setTimeout(() => { renderWaveAnimation('#waves', true, 3, 4); }, 1); 
+    </script>
+</body>
